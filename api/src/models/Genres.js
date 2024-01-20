@@ -1,0 +1,10 @@
+const { DataTypes, Sequelize } = require('sequelize');
+
+module.exports = (sequelize) => {
+    sequelize.define('Genres', {
+        name: {
+            type: DataTypes.STRING,
+            allowNull: false
+        }
+    }, { timestamps: false })
+}

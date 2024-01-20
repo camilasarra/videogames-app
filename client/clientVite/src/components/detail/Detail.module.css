@@ -1,0 +1,40 @@
+.wrapper{
+   width: 60%;
+    background: rgba(252,224,252, 1);
+    background: radial-gradient(circle, rgba(252,224,252,1) 0%, rgba(116,98,159,0.3481610326114617) 100%);
+    box-shadow:  3px -14px 50px -20px rgba(242,239,247,1);
+    margin: 5rem auto;
+
+}
+
+.card {
+    padding-top: 1rem;
+    border-radius: 1rem;
+}
+
+.image{
+   max-width: 100%;
+ width: 65%;
+border-radius: 2rem;
+   margin: 0 auto;
+   padding: 1rem 0;
+ 
+
+}
+
+.name{
+    color: rgb(25, 25, 66);
+    font-size: 2.3rem;
+}
+
+.description{
+    color: rgb(47, 47, 57);
+    font-size: 1rem;
+    padding: 0.5rem 7rem;
+}
+
+h4{
+    color: rgb(73, 43, 90);
+    line-height: 0%;
+}
+

@@ -1,0 +1,63 @@
+
+.container{
+    width: 25%;
+    display: flex;
+    background: rgb(35, 41, 53);
+    background: radial-gradient(circle, rgba(50, 63, 91, 0.3) 0%, rgb(57, 47, 82) 100%);
+    box-shadow: 3px -14px 50px -20px rgba(185, 137, 185, 0.87);
+    border-radius: 3%;
+    border: 2px solid rgb(65, 70, 70)6, 26;
+    text-align: center;
+    justify-content: center;
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 0.8;
+    }
+
+    .container:hover{
+        background: rgba(34, 44, 67, 0.9);
+    }
+.gallery{
+    
+    justify-content: space-between;
+}
+  .imgvg{
+    border-radius: 0.3rem;
+    max-width: 100%;
+ 
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+  }
+    
+    .imgvg:hover {
+      transform: scale(1.1);
+    }
+    
+  .rating {
+    background-image: url('../../assets/icons/icons8-controller-80.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1.8rem;
+    
+  }
+
+  .ratingContainer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center; 
+  }
+
+.name, h3{
+    color:#eed5f3 ;
+}
+
+.name:hover{
+    color: rgb(234, 128, 202);
+}
+
+h2{
+  color: #eab7f4;
+}

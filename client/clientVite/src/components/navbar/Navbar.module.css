@@ -1,0 +1,12 @@
+.container{
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:1rem;
+    background: rgb(70,70,70);
+    background: radial-gradient(circle, rgba(70,70,70,1) 0%, rgba(111,94,134,0.938813025210084) 100%);
+}
+
+

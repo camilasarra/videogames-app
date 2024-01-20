@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200&display=swap');
+/*
+font-family: 'DotGothic16', sans-serif;
+
+font-family: 'IBM Plex Mono', monospace;
+*/
+
+body{
+  margin: 0 auto;
+  box-sizing: border-box;
+  padding: 0;
+}
+.container{
+    background-image: url('../../assets/images/retro-game-controllers-wallpaper.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.gif{
+    height: 40vh;
+background-image: url('../../assets/images/Paz.gif');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+padding: 5rem;
+margin: 0 auto;
+
+
+}
+
+.title{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    font-family:'DotGothic16', sans-serif;
+    color: #1f272e;
+    font-size: 3.5rem;
+    
+}
+
+.pac_man {
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 5em;
+    border-radius: 100em 100em 0 0;
+    background: #f00;
+    transform-origin: bottom;
+    -webkit-animation: eating-top 0.5s infinite;
+            animation: eating-top 0.5s infinite;
+  }
+  .pac_man,
+  .pac_man::before {
+    width: 70px;
+    height: calc(70px / 2);
+    background: #e1aac4;
+  }
+  .pac_man::before {
+    content: "";
+    display: block;
+    margin-top: calc(70px / 2);
+    position: absolute;
+    transform-origin: top;
+    border-radius: 0 0 100em 100em;
+    transform: rotate(80deg);
+    -webkit-animation: eating-bottom 0.5s infinite;
+            animation: eating-bottom 0.5s infinite;
+  }
+  .pac_man::after {
+    position: absolute;
+    border-radius: 100em;
+    content: "";
+    display: block;
+    height: 20px;
+    width: 20px;
+    margin-top: calc((70px / 2) - 10px);
+    margin-left: calc((70px / 2) - 10px);
+    transform-origin: center;
+    -webkit-animation: center 0.5s infinite, ball 0.5s -0.33s infinite linear;
+            animation: center 0.5s infinite, ball 0.5s -0.33s infinite linear;
+  }
+  @-webkit-keyframes eating-top {
+    0% {
+      transform: rotate(-40deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-40deg);
+    }
+  }
+  @keyframes eating-top {
+    0% {
+      transform: rotate(-40deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-40deg);
+    }
+  }
+  @-webkit-keyframes eating-bottom {
+    0% {
+      transform: rotate(80deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(80deg);
+    }
+  }
+  @keyframes eating-bottom {
+    0% {
+      transform: rotate(80deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(80deg);
+    }
+  }
+  @-webkit-keyframes center {
+    0% {
+      transform: rotate(40deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(40deg);
+    }
+  }
+  @keyframes center {
+    0% {
+      transform: rotate(40deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(40deg);
+    }
+  }
+  @-webkit-keyframes ball {
+    0% {
+      opacity: 0.7;
+      box-shadow: 70px 0 0 0 #e1aac4, 120px 0 0 0 #e1aac4, 170px 0 0 0 #e1aac4, 220px 0 0 0 #e1aac4;
+    }
+    100% {
+      box-shadow: 20px 0 0 0 #e1aac4, 70px 0 0 0 #e1aac4, 120px 0 0 0 #e1aac4, 170px 0 0 0 #e1aac4;
+    }
+  }
+  @keyframes ball {
+    0% {
+      opacity: 0.7;
+      box-shadow: 70px 0 0 0 #e1aac4, 120px 0 0 0 #e1aac4, 170px 0 0 0 #e1aac4, 220px 0 0 0 #e1aac4;
+    }
+    100% {
+      box-shadow: 20px 0 0 0 #e1aac4, 70px 0 0 0 #e1aac4, 120px 0 0 0 #e1aac4, 170px 0 0 0 #e1aac4;
+    }
+  }
+  
