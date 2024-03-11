@@ -3,9 +3,12 @@
 
 # **VIDEOGAMES** | Proyecto Individual
 
-![Captura de pantalla de mi aplicación](/client/clientVite/src/assets/videogames1.jpg)
-![](/client/clientVite/src/assets/videogames%202.jpg)
-![](/client/clientVite/src/assets/videogames%203.jpg)
+
+<br />
+
+<div align="center">
+<img src="./client/clientVite/src/assets/videogames1.jpg" alt="" />
+</div>
 
 ## **📌 OBJETIVOS**
 
