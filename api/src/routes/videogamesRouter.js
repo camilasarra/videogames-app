@@ -4,18 +4,17 @@ const { getVideogames,
     getVideogamesId, 
     getVideogamesName,
     postNewVideogame,
-    getVideogamesPages
 } = require('../controllers/videogamesController')
 
 const videogamesRouter = Router() 
 
-videogamesRouter.get('/videogames', getVideogames)
+videogamesRouter.get('/', getVideogames)
 
-videogamesRouter.get('/videogames/name', getVideogamesName)
+videogamesRouter.get('/name', getVideogamesName)
 
-videogamesRouter.post('/videogames/post', postNewVideogame)
+videogamesRouter.post('/post', postNewVideogame)
 
-videogamesRouter.get('/videogames/:id', getVideogamesId)
+videogamesRouter.get('/:id', getVideogamesId)
 
 
     

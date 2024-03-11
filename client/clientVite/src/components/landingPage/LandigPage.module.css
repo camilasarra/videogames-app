@@ -10,7 +10,7 @@ font-family: 'IBM Plex Mono', monospace;
 body{
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0;
+  
 }
 .container{
     background-image: url('../../assets/images/retro-game-controllers-wallpaper.jpg');
@@ -20,12 +20,15 @@ body{
 }
 
 .gif{
-    height: 40vh;
+  display: flex; /* Agregar */
+  justify-content: center; /* Agregar */
+  align-items: center;
+    height: 30vh;
 background-image: url('../../assets/images/Paz.gif');
 background-position: center;
 background-repeat: no-repeat;
 background-size: contain;
-padding: 5rem;
+padding-top: 10rem;
 margin: 0 auto;
 
 

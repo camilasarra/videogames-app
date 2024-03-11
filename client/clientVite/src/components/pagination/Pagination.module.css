@@ -2,6 +2,37 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap');
 
+
+.container {
+    /* margin: 2rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.first{
+    width: 7rem;
+    height: 8rem;
+   
+    background-image: url('../../assets/icons/firstIcon.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 3px -14px 50px -2px rgba(197,169,245,0.38);
+    margin: 1rem;
+}
+
+.last{
+    width: 7rem;
+    height: 8rem;
+  
+    background-image: url('../../assets/icons/play-dynamic-gradientvava.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    box-shadow: 3px -14px 50px -2px rgba(197,169,245,0.38);
+    margin: 1rem;
+}
+
 .numbers {
     font-size: 3rem;
     padding: 0 1rem;
@@ -15,8 +46,8 @@
     box-shadow: 3px -14px 50px -2px rgba(197,169,245,0.38);
 }
 
-.numbers:hover {
-    transform: scale(0.5);
+.numbers:hover, .first:hover, .last:hover {
+    transform: scale(1.2);
     color: rgb(195, 43, 226);
    
 }
@@ -24,3 +55,4 @@
 .numbers:focus{
     color: rgb(140, 0, 255);
 }
+
