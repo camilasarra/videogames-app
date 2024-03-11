@@ -1,4 +1,5 @@
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png
+<<<<<<< HEAD
+![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # **VIDEOGAMES** | Proyecto Individual
 
