@@ -23,10 +23,6 @@
 
 <div align="center">
 <img src="./client/clientVite/src/assets/videogames2.jpg" alt="" />
-
-<img src="./client/clientVite/src/assets/videogames3.jpg" alt="" />
-
-
 </div>
 ---
 
@@ -39,6 +35,12 @@ En el caso de completar todas las tareas antes de dicho lapso se podrá avisar a
 <br />
 
 ---
+
+<br />
+
+<div align="center">
+<img src="./client/clientVite/src/assets/videogames3.jpg" alt="" />
+</div>
 
 ## **⚠️ IMPORTANTE**
 
