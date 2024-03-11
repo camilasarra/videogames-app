@@ -39,7 +39,7 @@ export default function Home() { //podes poner props
 
   return (
 
-    <div> 
+    <div className={style.container}> 
     <SearchBar />
     <FilterBar  resetPage={resetPage}/>
 

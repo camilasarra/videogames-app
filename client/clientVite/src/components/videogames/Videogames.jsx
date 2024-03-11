@@ -15,7 +15,7 @@ export default function Videogames({ allVideogames }) {
               id={vg.id}
               name={vg.name}
               image={vg.image}
-              genres={vg.genres}
+              
               rating={vg.rating}
             />
             )

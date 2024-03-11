@@ -1,5 +1,5 @@
 .wrapper{
-   width: 60%;
+   width: 40%;
     background: rgba(252,224,252, 1);
     background: radial-gradient(circle, rgba(252,224,252,1) 0%, rgba(116,98,159,0.3481610326114617) 100%);
     box-shadow:  3px -14px 50px -20px rgba(242,239,247,1);
@@ -14,7 +14,7 @@
 
 .image{
    max-width: 100%;
- width: 65%;
+ width: 75%;
 border-radius: 2rem;
    margin: 0 auto;
    padding: 1rem 0;

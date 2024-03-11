@@ -38,7 +38,7 @@ if(!videogameDetail){
        <h4>Genres: {Array.isArray(videogameDetail.genres) ? videogameDetail.genres.join(' - ') : videogameDetail.genres}</h4>
        <h4>Platforms : {videogameDetail.platforms}</h4>
        </div>
-       <button onClick={()=> navigate('/home')}>go back</button>
+       <button onClick={()=> navigate('/home')}>GO BACK</button>
     </div>
 
     </div>

@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require('uuid')// v4 es la version del ident unico univer
 // Luego le injectamos la conexion a sequelize.
 module.exports = (sequelize) => {
   // defino el modelo
-  sequelize.define('Videogame', {
+  sequelize.define('Videogames', {
     id: {
       type: DataTypes.UUID,
       defaultValue: DataTypes.UUIDV4,// es opcional pero nos da mas control seq generara un UUID unico para el ID
@@ -29,9 +29,6 @@ module.exports = (sequelize) => {
     image: {
       type:DataTypes.STRING,
       allowNull: false
-      // {
-//        isUrl: true
-     // }
     },
     released: {
       type:DataTypes.DATEONLY,
