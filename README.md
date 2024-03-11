@@ -1,5 +1,8 @@
-<<<<<<< HEAD
-![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
+<<<<<<< HEAD![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png
+
+![Captura de pantalla de mi aplicación](/client/clientVite/src/assets/videogames1.jpg)
+![](/client/clientVite/src/assets/videogames%202.jpg)
+![](/client/clientVite/src/assets/videogames%203.jpg)
 
 # **VIDEOGAMES** | Proyecto Individual
 
