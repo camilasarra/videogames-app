@@ -3,6 +3,10 @@
 
 # **VIDEOGAMES** | Proyecto Individual
 
+![Captura de pantalla de mi aplicación](/client/clientVite/src/assets/videogames1.jpg)
+![](/client/clientVite/src/assets/videogames%202.jpg)
+![](/client/clientVite/src/assets/videogames%203.jpg)
+
 ## **📌 OBJETIVOS**
 
 -  Construir una Single Page Application utlizando las tecnologías: **React**, **Redux**, **Node**, **Express** y **Sequelize**.
