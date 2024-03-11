@@ -21,6 +21,13 @@
 
 <br />
 
+<div align="center">
+<img src="./client/clientVite/src/assets/videogames2.jpg" alt="" />
+
+<img src="./client/clientVite/src/assets/videogames3.jpg" alt="" />
+
+
+</div>
 ---
 
 ## **⏱ HORARIOS Y FECHAS**
