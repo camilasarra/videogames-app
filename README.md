@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<div align="center">
+<img src="./client/clientVite/src/assets/videogames1.jpg" alt="" />
+</div>
 ![HenryLogo](https://d31uz8lwfmyn8g.cloudfront.net/Assets/logo-henry-white-lg.png)
 
 # **VIDEOGAMES** | Proyecto Individual
