@@ -20,7 +20,7 @@ return (
     <div className={style.container}>
         <div className={style.gif}></div>
 
-        <h1 className={style.title}>Welcome to my Videogames!!</h1>
+        <h1 className={style.title}>Welcome To My Videogames!!</h1>
 
         <div className={style.btn_container}>
 
