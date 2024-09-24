@@ -36,7 +36,7 @@ const getVideogames = async function (req, res) {
            
     
              const allVideogames = [...dbNameVg, ...nameVideogames];
-             //console.log("all videogames ", allVideogames)
+             
     
             if(allVideogames.length === 0){
                return res.status(404).json({ error: 'No se encontraron videogames con ese nombre'})
