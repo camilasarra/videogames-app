@@ -39,7 +39,7 @@ const getVideogames = async function (req, res) {
              
     
             if(allVideogames.length === 0){
-               return res.status(404).json({ error: 'No se encontraron videogames con ese nombre'})
+               return res.status(404).json({ error: 'No se encontraron videogames con ese nombre!'})
             }
     
             return res.status(200).json(allVideogames);
@@ -111,7 +111,7 @@ const getVideogames = async function (req, res) {
             res.status(200).json(results)
             
         } catch (error) {
-            console.log("ERROR GETTING VGS ", error)
+            console.log("ERROR GETTING VIDEOGAMES ", error)
           res.status(500).json({error: "Error al obtener la lista de videojuegos"})
         }
     }   
